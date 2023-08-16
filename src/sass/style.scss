@@ -1,0 +1,26 @@
+*{
+     margin: 0;
+     
+}
+
+@import 'blocks/header';
+@import 'blocks/hero';
+@import 'blocks/construction';
+@import 'blocks/question-section';
+@import 'blocks/services-section';
+@import 'blocks/btn';
+@import 'blocks/portfolio-section';
+
+
+@import 'components/slider-nav';
+
+
+
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('/building/public/fonts/') format('ttf'),
+         url('/fonts/myfont.woff') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+

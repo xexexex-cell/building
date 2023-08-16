@@ -1,0 +1,23 @@
+.portfolio-section{
+    padding: 120px 0px;
+    background-color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    width: 1242px;
+    &__top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+    &__title{
+        margin: 0;
+        padding-bottom: 12px;
+        max-width: 620px;
+        font-size: 46px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 130%;
+        text-align: left;
+    }
+}

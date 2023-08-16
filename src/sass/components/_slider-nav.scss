@@ -1,0 +1,18 @@
+.slider-nav{
+    padding: 50px 0px;
+    display: flex;
+  align-items: center;
+    &__btn{
+        height: 48px;
+        width: 48px;
+        border-radius: 100%;
+        transition: background-color 0.3s ease-in-out;
+        background-color: #fff;
+        border-width: inherit;
+
+        &:hover {
+            background-color: var(--primary, #FF5A30);
+            
+        }
+    }
+}

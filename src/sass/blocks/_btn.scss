@@ -1,0 +1,17 @@
+.btn{
+    background-color: var(--primary, #FF5A30);
+    width: 207px;
+    height: 52px;
+    border-radius: 4px;
+    padding: 0px 40px 0px 40px;
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px; /* 325% */
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
